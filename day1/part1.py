@@ -1,8 +1,5 @@
 import csv
 
-def extrac_csv():
-    csv.reader()
-
 def main():
     with open('input.csv') as input:
         masses = csv.reader(input)
